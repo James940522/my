@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useState, Suspense, use } from "react";
-import { Counter } from "@/entities/Counter";
-import { UserProfile } from "@/entities/UserProfile";
-import { fetchUserData, UserData } from "@/shared/api/userData";
+import { Counter } from "@/entities/counter";
+import { UserProfile } from "@/entities/user-profile";
+import { fetchUserData } from "@/shared/api/user-data";
 
 // React 19 새로운 기능 데모를 위한 비동기 컴포넌트
 const AsyncUserData = ({ userId }: { userId: number }) => {

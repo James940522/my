@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import DemoFeatures from "@/widgets/features/DemoFeatures";
-import ThemeToggle from "@/shared/ui/ThemeToggle";
+import DemoFeatures from "@/widgets/features/demo-features";
+import ThemeToggle from "@/shared/ui/theme-toggle";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
