@@ -11,8 +11,8 @@ interface ProfileData {
 
 export function UserProfile() {
   const [profile, setProfile] = useState<ProfileData>({
-    name: "김개발",
-    role: "시니어 개발자",
+    name: "제임스",
+    role: "중니어 개발자",
     team: "프론트엔드",
     bio: "Next.js와 React를 활용한 웹 애플리케이션 개발 전문가입니다."
   });

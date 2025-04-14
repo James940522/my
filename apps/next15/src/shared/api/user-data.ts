@@ -19,6 +19,8 @@ export async function fetchUserData(userId: number): Promise<UserData> {
   // 실제 환경에서는 API 호출
   await new Promise((resolve) => setTimeout(resolve, 1000)); // 로딩 시뮬레이션
   
+  console.log("fetchUserData", userId);
+
   const user = SAMPLE_USERS.find((user) => user.id === userId);
   
   if (!user) {
