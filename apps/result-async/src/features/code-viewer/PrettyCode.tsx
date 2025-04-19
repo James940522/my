@@ -54,7 +54,7 @@ export const PrettyCode = ({
   };
 
   // 간단한 구문 강조를 위한 토큰화 함수
-  const tokenize = (code: string, language: string) => {
+  const tokenize = (code: string) => {
     const lines = code.split('\n');
     
     return lines.map((line, lineIndex) => {
@@ -146,7 +146,7 @@ export const PrettyCode = ({
     });
   };
 
-  const tokenizedLines = tokenize(code, language);
+  const tokenizedLines = tokenize(code);
 
   return (
     <div className="relative group">
