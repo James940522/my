@@ -1,0 +1,27 @@
+{
+  "name": "deep-dive",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "catalog:react19",
+    "react-dom": "catalog:react19",
+    "next": "catalog:"
+  },
+  "devDependencies": {
+    "typescript": "catalog:",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:react19",
+    "@types/react-dom": "catalog:react19",
+    "@tailwindcss/postcss": "catalog:",
+    "tailwindcss": "catalog:",
+    "eslint": "catalog:",
+    "eslint-config-next": "catalog:",
+    "@eslint/eslintrc": "catalog:"
+  }
+}
